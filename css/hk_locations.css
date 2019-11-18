@@ -1,0 +1,233 @@
+*
+body	{
+	font-family: 'Roboto';
+	font-size: 1.0rem;
+	overflow: hidden;
+	line-height: 1.5rem;
+}
+
+
+/*-- Top --*/
+
+
+#top	{
+	background-color: black!important;
+	background-size: 35%;
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#text	{
+	position: absolute;
+	z-index: 1000;
+}
+
+
+/*-- Nav --*/
+.navbar a	{
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar li:hover	{
+	border-bottom: 2px solid white;
+}
+
+.active	{
+	border-bottom: 2px solid white;
+}
+
+
+/*-- Vertical --*/
+
+#vertical 	{
+	width: 25rem;
+	position: absolute;
+	padding-left: 0rem;
+	margin-left: 0rem;
+	padding-bottom: 12.5rem;
+}
+
+#vertical a 	{
+	color: rgba(255, 255, 255, .5);
+}
+
+#vertical a:hover 	{
+	color: rgb(255, 255, 255);
+}
+
+#vertical .active	{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border: none;
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: .25rem;
+}
+
+#tabs-listContent	{
+	position: fixed;
+}
+
+/*-- BG Images--*/
+
+.carousel-caption	{
+	margin-right: 5rem;
+}
+
+.btn 	{
+	text-transform: uppercase;
+	border-width: .1rem;
+	padding: 1rem 2rem 1rem;
+}
+
+#katampe1	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/o-apartments.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s;
+}
+
+#katampe2	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/g-garden.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#asokoro2	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/wuse22.jpg');
+	background-size: 110%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+	filter: grayscale(100%);
+}
+
+#asokoro1	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/wuse3.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#durumi1	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/protea1.png');
+	background-size: 120%;
+	background-position: 60% 0%;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#durumi2	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/durumi-home.jpg');
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#other1	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/asokoro1.png');
+	background-size: 122%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+}
+
+#other2	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/asokoro2.png');
+	background-size: 110%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+}
+
+#wuse1	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/nordic.jpg');
+	background-size: 100%;
+	background-position: 65% 90%;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#wuse2	{
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/locations/veranda.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+
+@-webkit-keyframes zoomin	{
+	0% 		{
+		-webkit-transform: scale(1);
+	}
+	100%	{
+		-webkit-transform: scale(2);
+	}
+}
+
+.btn-link	{
+	color: grey!important;
+	border-color: transparent!important;
+	background-color: transparent!important;
+}
+
+.btn-link:hover, .btn-link:active, .btn-link:focus	{
+	color:white!important;
+	outline:none;
+	text-decoration:none;
+}
+
+.bg-black	{
+	background-color: black;
+	height: 100vh;
+}
+
+#wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
+	color: white;
+}
+
+.col-4	{
+	border-left: 2px solid white;
+	border-top: none;
+	padding: 2rem 5rem 2rem;
+}
+
+#collapse a 	{
+	color: white!important;
+}

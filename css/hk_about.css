@@ -1,0 +1,199 @@
+*
+body	{
+	font-family: 'Roboto';
+	font-size: 1.0rem;
+	overflow-x: hidden;
+	line-height: 1.5rem;
+}
+
+
+/*-- Top --*/
+#top 	{
+	height: 150vh;
+
+}
+
+#cont	{
+	background-color: #282923!important;
+	background-image: url('C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/images/naija_map.png');
+	background-size: 35%;
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+	height: 90vh;
+	padding-bottom: 5rem;
+}
+
+
+/*-- Nav --*/
+.navbar a	{
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar li:hover	{
+	border-bottom: 2px solid white;
+}
+
+.active	{
+	border-bottom: 2px solid white;
+}
+
+
+/*-- Main --*/
+
+#main .display-4	{
+	font-size: 1.75rem;
+	padding-bottom: 1.5rem;
+}
+
+#main h6	{
+	font-size: 1.25rem;
+}
+
+#main .lead	{
+	font-size: 1rem;
+}
+
+#main img 	{
+	padding: 5rem 0rem 1rem;
+	background-position: top;
+	background-size: cover;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+#main img:hover 	{
+	filter: grayscale(0%);
+}
+
+
+/*-- Team --*/
+
+#team {
+	padding: 7.5rem 10rem 5rem;
+	margin-top: 5rem;
+}
+
+#team .img1 	{
+	background-image: url("C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/images/hassan.jpg");
+	background-size: 100%;
+	background-position: 90% 20%; 
+	height: 30rem;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+#team .img1:hover 	{
+	filter: grayscale(0%);
+}
+
+#team .img2 	{
+	background-image: url("C:/Users/KayBee/Documents/IMP/Real Estate Web Project/stuff/images/osita.jpg");
+	background-size: 100%;
+	height: 30rem;
+	filter: grayscale(100%);
+	position: relative;
+}
+
+#team .img2:hover 	{
+	filter: grayscale(0%);
+}
+
+#team .display-4 	{
+	padding-bottom: 5rem;
+}
+
+#team .display-3 	{
+	font-size: 1.5rem;
+}
+
+#team .lead 	{
+	font-size: 1rem;
+}
+
+#team .pding 	{
+	margin-bottom: 5rem;
+}
+
+/*-- Services --*/
+
+#services 	{
+	padding: 7.5rem 5rem 10rem;
+}
+
+#services .carousel 	{
+	padding-top: 5rem;
+}
+
+#services img	{
+	filter: grayscale(100%);
+	height: 40vh;
+	width: 500px;
+}
+
+#services hr 	{
+	border-top: .1rem solid black;
+	padding-top: 0rem;
+	margin-top: 0rem;
+	width: 25rem;
+}
+
+#services .display-3 	{
+	font-size: 1.5rem;
+}
+
+#services .lead	{
+	font-size: .925rem;
+}
+
+#services .p	{
+	font-size: 1rem;
+}
+
+#services .fa {
+	color: gray!important;
+}
+
+#services .fa:hover {
+	color: black!important;
+}
+
+#know	{
+	margin-top: 5rem;
+}
+
+#know	.lead	{
+	font-size: 1.15rem;
+}
+
+#know a 	{
+	color: black;
+	text-decoration: underline;
+}
+
+#know a:hover 	{
+	color: gray;
+}
+
+/*-- Footer --*/
+
+#footer 	{
+	padding: 5rem 20rem 1rem;
+}
+
+.bg-dark	{
+	background-color: #282923!important;
+}
+
+#footer .lead	{
+	font-size: 1rem;
+}
+
+.fab	{
+	color: white;
+	margin-right: .75rem;
+}
+
+#footer a 	{
+	color: white!important;
+}

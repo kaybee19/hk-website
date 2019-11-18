@@ -1,0 +1,93 @@
+*
+body	{
+	font-family: 'Roboto';
+	font-size: 1.0rem;
+	overflow-x: hidden;
+	line-height: 1.5rem;
+}
+
+
+/*-- Top --*/
+#top	{
+	background-image: linear-gradient(black 70%, white 20%);
+	background-size: cover;
+	background-position: top;
+	height: 90vh;
+	margin-bottom: 5.7rem;
+}
+
+#contact_con	{
+	background-color: white!important;
+	padding: 7.5rem 0rem 7.5rem;
+	margin-top: 2.5rem;
+}
+
+.display-4	{
+	font-weight: bold;
+	font-size: 3.25rem;
+}
+
+#contact_con .display-3 	{
+	font-size: 2.5rem;
+	padding-bottom: 2rem;
+}
+
+#contact_con .lead 	{
+	font-size: 1.1rem;
+}
+
+/*-- Nav --*/
+.navbar a	{
+	color: white!important;
+	font-weight: bold;
+}
+
+.navbar li:hover	{
+	border-bottom: 2px solid white;
+}
+
+.active	{
+	border-bottom: 2px solid white;
+}
+
+
+/*-- Contact --*/
+
+#contact 	{
+	margin-bottom: 10rem;
+}
+
+.form-group	{
+	margin-bottom: 3rem;
+}
+
+.btn:hover {
+	background-color: black!important;
+	border-color: transparent;
+}
+
+#contact .col-4	{
+	padding: 0rem 3rem 0rem;
+}
+/*-- Footer --*/
+
+#footer 	{
+	padding: 5rem 20rem 1rem;
+}
+
+.bg-dark	{
+	background-color: #282923!important;
+}
+
+#footer .lead	{
+	font-size: 1rem;
+}
+
+.fab	{
+	color: white;
+	margin-right: .75rem;
+}
+
+#footer a 	{
+	color: white!important;
+}
