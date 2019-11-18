@@ -9,7 +9,7 @@ body	{
 
 /*-- Top --*/
 #top	{
-	background-image: url('sup-img\images\tower22.png');
+	background-image: url('sup-img/images/tower22.png');
 	background-size: cover;
 	background-position: top;
 	height: 90vh;
@@ -115,7 +115,7 @@ body	{
 
 /*-- Cards --*/
 #cards 	{
-	background-image: url('sup-img\images\know_us2_alt.png');
+	background-image: url('sup-img/images/know_us2_alt.png');
 	background-size: cover;
 	background-position: bottom;
 	height: 45vh;
@@ -136,21 +136,21 @@ body	{
 }
 
 #cards .bg-dark1	{
-	background-image: url('sup-img\images\about_us_alt.png');
+	background-image: url('sup-img/images/about_us_alt.png');
 	background-position: left;
 	background-size: 150% auto;
 	height: 25vh;
 }
 
 #cards .bg-dark2	{
-	background-image: url('sup-img\images\services2.png');
+	background-image: url('sup-img/images/services2.png');
 	background-position: top;
 	background-size: 130% auto;
 	height: 25vh;
 }
 
 #cards .bg-dark3	{
-	background-image: url('sup-img\images\location1.png');
+	background-image: url('sup-img/images/location1.png');
 	background-position: center;
 	background-size: 100% auto;
 	height: 25vh;
