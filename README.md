@@ -1,4 +1,4 @@
 # hk-website
 Hassan + King Website
 
-A simple website creeate for real estate clients
+A simple website I created for my real estate clients
