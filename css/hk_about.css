@@ -14,6 +14,7 @@ body	{
 
 #cont	{
 	background-color: #282923!important;
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/naija_map.png');
 	background-size: 35%;
 	background-position: 90% 50%;
 	background-repeat: no-repeat;
@@ -280,6 +281,9 @@ body	{
 	height: 125vh;
 }
 
+#cont	{
+}
+	
 #team {
 	padding: 5rem 10rem 5rem;
 	margin-top: 7.5rem;
@@ -321,10 +325,6 @@ body	{
 
 #top 	{
 	height: 140vh;
-}
-
-#cont	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/naija_map.png');
 }
 	
 #main .display-4	{
