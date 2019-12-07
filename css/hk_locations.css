@@ -15,7 +15,8 @@ body	{
 	background-size: 50%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	height: 100vh;
+	width: 115%;
+	height: 120vh;
 }
 
 #text	{
@@ -89,7 +90,7 @@ body	{
 	background-size: 110%;
 	background-position: 300% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -100,7 +101,7 @@ body	{
 	background-size: 110%;
 	background-position: 200% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -111,7 +112,7 @@ body	{
 	background-size: 110%;
 	background-position: 175% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 	filter: grayscale(100%);
@@ -122,7 +123,7 @@ body	{
 	background-size: 110%;
 	background-position: 110% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -133,7 +134,7 @@ body	{
 	background-size: 163%;
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -144,7 +145,7 @@ body	{
 	background-size: 110%;
 	background-position: 150% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -155,7 +156,7 @@ body	{
 	background-size: 110%;
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 }
@@ -165,7 +166,7 @@ body	{
 	background-size: 120%;
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 }
@@ -175,7 +176,7 @@ body	{
 	background-size: 120%;
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -186,7 +187,7 @@ body	{
 	background-size: 120%;
 	background-position: 140% 50%;
 	background-repeat: no-repeat;
-	height: 105vh;
+	height: 120vh;
 	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
@@ -257,7 +258,7 @@ body	{
 }
 
 #main .container-fluid	{
-	height: 75%;
+	height: 100%;
 }
 
 /*-- Media Queries --*/
@@ -265,7 +266,12 @@ body	{
 
 /*-- Old devices (landscape phones, 380px and up) --*/
 
-@media (min-width: 380px) {
+@media (min-width: 340px) {
+
+#top	{
+	width: 100%;
+	height: 100vh;
+}
 
 #collapse .lead 	{
 	font-size: 1.25rem;
@@ -275,6 +281,9 @@ body	{
 #collapse .card 	{
 	padding-top: 0;
 }
+
+#katampe1, #katampe2 #asokoro2, #asokoro1, #durumi1, #durumi2, #other2, #other1, #wuse1, #wuse2{
+	height: 105vh;
 }
 
 
