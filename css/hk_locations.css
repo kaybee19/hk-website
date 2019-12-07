@@ -227,6 +227,7 @@ body	{
 .bg-black	{
 	background-color: black;
 	height: 120vh;
+	width: 115%;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
@@ -235,7 +236,7 @@ body	{
 
 #collapse a 	{
 	color: white!important;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	text-decoration: underline;
 }
 
@@ -259,7 +260,7 @@ body	{
 
 #main .container-fluid	{
 	height: 75%;
-	padding-bottom: 5rem!important;
+	padding: 0;
 }
 
 /*-- Media Queries --*/
@@ -298,7 +299,6 @@ body	{
 
 #main .container-fluid	{
 	height: 120%;
-	padding-bottom: 7rem!important;
 }
 
 .carousel-caption	{
@@ -342,8 +342,6 @@ body	{
 
 #main .container-fluid	{
 	height: 110%;
-	padding-bottom: 10rem!important;
-
 }
 
 #collapse .lead 	{
@@ -456,8 +454,6 @@ body	{
 
 #main .container-fluid	{
 	height: 100%;
-	padding-bottom: 15rem!important;
-
 }
 
 .carousel-caption	{
