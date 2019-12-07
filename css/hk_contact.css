@@ -12,28 +12,29 @@ body	{
 	background-image: linear-gradient(black 70%, white 20%);
 	background-size: cover;
 	background-position: top;
-	height: 90vh;
-	margin-bottom: 5.7rem;
+	height: 70vh;
+	margin-bottom: 7.5rem;
 }
 
 #contact_con	{
 	background-color: white!important;
-	padding: 7.5rem 0rem 7.5rem;
+	padding: 5rem 1rem 5rem;
 	margin-top: 2.5rem;
 }
 
 .display-4	{
 	font-weight: bold;
-	font-size: 3.25rem;
+	font-size: 2rem;
 }
 
 #contact_con .display-3 	{
-	font-size: 2.5rem;
+	font-size: 1.25rem;
+	font-weight: bold;
 	padding-bottom: 2rem;
 }
 
 #contact_con .lead 	{
-	font-size: 1.1rem;
+	font-size: .7rem;
 }
 
 /*-- Nav --*/
@@ -54,7 +55,7 @@ body	{
 /*-- Contact --*/
 
 #contact 	{
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .form-group	{
@@ -66,13 +67,19 @@ body	{
 	border-color: transparent;
 }
 
-#contact .col-4	{
+#contact .col-lg-4	{
 	padding: 0rem 3rem 0rem;
 }
+
+#contact .row	{
+	margin: 0;
+}
+
+
 /*-- Footer --*/
 
 #footer 	{
-	padding: 5rem 20rem 1rem;
+	padding: 5rem 2rem 1rem;
 }
 
 .bg-dark	{
@@ -90,4 +97,136 @@ body	{
 
 #footer a 	{
 	color: white!important;
+}
+
+#footer h6 	{
+	display: none;
+}
+
+
+#footer .small 	{
+	font-size: .6rem;
+	line-height: 1rem;
+}
+
+
+
+
+/*-- Media Queries --*/
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+
+@media (min-width: 380px) {
+
+#top 	{
+	margin-bottom: 5rem;
+
+}
+}
+
+
+/*-- Horizontal device screens (landscape phones, 560px and up) --*/
+
+@media (min-width: 560px) {
+
+#top	{
+	height: 125vh;
+}
+
+#footer 	{
+	padding: 5rem 5rem 1rem;
+}
+}
+
+
+/*-- Medium devices (tablets, 768px and up) --*/
+
+@media (min-width: 766px) {
+
+#top	{
+	height: 70vh;
+	margin-bottom: 1rem;
+}
+}
+
+
+/*-- Fix for phones (phones, 812px and up) --*/
+
+@media (min-width: 812px) {
+
+#top	{
+	height: 150vh;
+	margin-bottom: 1rem;
+}
+}
+
+
+/*-- Large devices (desktops, 992px and up) --*/
+
+@media (min-width: 992px) {
+
+#top	{
+	height: 60vh;
+	margin-bottom: 4rem;
+}
+
+.display-4	{
+	font-size: 3rem;
+}
+
+#contact_con .display-3 	{
+	font-size: 1.75rem;
+}
+
+#contact_con .lead 	{
+	font-size: 1rem;
+}
+
+#footer 	{
+	padding: 5rem 7.5rem 1rem;
+}
+
+#footer h6 	{
+	display: block;
+}
+
+#footer .small 	{
+	font-size: .8rem;
+}
+}
+
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) {
+
+#top	{
+	height: 90vh;
+	margin-bottom: 7.5rem;
+}
+
+.display-4	{
+	font-size: 3.25rem;
+}
+
+#contact 	{
+	margin-bottom: 10rem;
+}
+
+#contact_con	{
+	padding: 7.5rem 0rem 7.5rem;
+}
+
+#contact_con .display-3 	{
+	font-size: 2.5rem;
+}
+
+#contact_con .lead 	{
+	font-size: 1.1rem;
+}
+
+#footer 	{
+	padding: 5rem 20rem 1rem;
+}
 }

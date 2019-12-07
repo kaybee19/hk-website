@@ -12,7 +12,7 @@ body	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/tower22.png');
 	background-size: cover;
 	background-position: top;
-	height: 90vh;
+	height: 80vh;
 	margin-bottom: 10rem;
 }
 
@@ -37,30 +37,32 @@ body	{
 	color: white!important;
 }
 
-#main h1	{
-	font-size: 2.25rem;
+#main h1 	{
+	font-size: 1.5rem; 
 }
 
-#main .display-4	{
-	font-size: 2.25rem;
+#main .display-4 	{
+	font-size: 1.25rem;
+	padding-bottom: 1rem;
 }
-
 
 #main a 	{
 	color: black!important;
+	font-weight: bolder;
+	text-decoration: underline;
+	transform: translateY(150%);
 }
 
+#main img 	{
+	display: none;
+}
 
 /*-- Hero --*/
 #hero 	{
-	padding-top: 2.5rem;
-	padding-bottom: 12.5rem;
+	padding-bottom: 2.5rem;
 	font-size: .9rem;
 }
 
-#hero .container	{
-	height: 80vh;
-}
 
 #hero a 	{
 	color: black!important;
@@ -68,22 +70,22 @@ body	{
 }
 
 .overflow-img	{
-	height: 77.5vh;
+	height: 23vh;
+	width: auto;
+	margin-top: 5rem; 
 	max-width: 55rem;
 }
 
 .bg-mine	{
 	background-color: #f5f5f5!important;
-	padding-top: 7.5rem;
-	padding-left: 10rem;
+	padding: 7.5rem 4rem 5rem;
 	padding-bottom: 7.5rem;
 }
 
 
 /*-- Business --*/
 #business 	{
-	position: relative;
-	padding: 5rem 25rem 10rem;
+	padding: 0rem 2rem 10rem;
 	font-size: .9rem;
 }
 
@@ -112,14 +114,22 @@ body	{
 	padding-bottom: 1rem;
 }
 
+#business img 	{
+	display: none;
+}
+
+#list	{
+	margin-top: 2.5rem;
+}
+
 
 /*-- Cards --*/
 #cards 	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/know_us2_alt.png');
-	background-size: cover;
-	background-position: bottom;
-	height: 45vh;
-	margin-bottom: 20rem;
+	background-size: 350%;
+	background-position: 50% -50%;
+	background-repeat: no-repeat;
+	margin-bottom: 10rem;
 }
 
 #cards .bg-white	{
@@ -131,28 +141,27 @@ body	{
  	text-shadow: 1.3px 1.3px rgba(0,0,0,.3);
 }
 
-#cards .row	{
-	width: 75rem; 
-}
-
 #cards .bg-dark1	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/about_us_alt.png');
-	background-position: left;
-	background-size: 150% auto;
+	background-position: center;
+	background-size: cover;
 	height: 25vh;
+	background-repeat: no-repeat;
 }
 
 #cards .bg-dark2	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/services2.png');
 	background-position: top;
-	background-size: 130% auto;
+	background-size: cover;
 	height: 25vh;
+	background-repeat: no-repeat;
 }
 
 #cards .bg-dark3	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/location1.png');
 	background-position: center;
-	background-size: 100% auto;
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 25vh;
 }
 
@@ -160,8 +169,8 @@ body	{
 	padding-bottom: .15rem;
 	}
 
-#cards .know	{
-	padding-top: 15rem;
+#cards .pad	{
+	padding-top: 10rem;
 }
 
 #cards .card 	{
@@ -177,16 +186,20 @@ body	{
 /*-- Selected --*/
 
 #selected 	{
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-	padding-left: 10rem;
-	padding-right: 10rem;
+	padding: 7.5rem 2rem 10rem;
 }
 
-#selected img 	{
+#selected .row	{
+	overflow: hidden;
+}
+
+#selected .gafaria 	{
 	position: relative;
+	margin-bottom: 5rem;
 	z-index: 1000;
 	filter: grayscale(100%);
+	height: 24vh;
+	width: auto;
 }
 
 #selected img:hover 	{
@@ -196,7 +209,6 @@ body	{
 
 .bg-mine2	{
 	background-color: #636363!important;
-	height: 80vh;
 	padding-left: 5rem;
 	padding-right: 3rem;
 }
@@ -217,14 +229,14 @@ body	{
 
 #selected .lead	{
 	font-size: 1rem;
-	line-height: .75rem;
+	line-height: 1.25rem;
 }
 
 
 /*-- Footer --*/
 
 #footer 	{
-	padding: 5rem 20rem 1rem;
+	padding: 5rem 2rem 1rem;
 }
 
 .bg-dark	{
@@ -242,6 +254,15 @@ body	{
 
 #footer a 	{
 	color: white!important;
+}
+
+#footer h6 	{
+	display: none;
+}
+
+
+#footer .small 	{
+	font-size: .6rem;
 }
 
 
@@ -277,4 +298,334 @@ body	{
   width: 30%;
   margin: 0% 1.33 2.66% 1.33%;
   float: left;
+}
+
+
+
+/*-- Media Queries --*/
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+@media (min-width: 380px) {
+
+#hero .row	{
+	overflow: hidden;
+}
+
+.overflow-img	{
+	height: 30vh;
+	width: auto;
+}
+
+#selected .gafaria 	{
+	height: 25vh;
+	width: auto;
+}
+}
+
+
+/*-- Horizontal device screens (landscape phones, 560px and up) --*/
+
+@media (min-width: 560px) {
+
+#main p 	{
+	padding-bottom: 0rem!important; 
+}
+
+#main h1 	{
+	font-size: 1.75rem; 
+}
+
+#main .display-4 	{
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+#main a 	{
+	color: black!important;
+	font-weight: bolder;
+	text-decoration: underline;
+	transform: translateY(0%);
+}
+
+.bg-mine	{
+	padding: 3rem 4rem 3rem;
+	margin-bottom: 5rem;
+}
+
+#hero img 	{
+	height: 77.5vh;
+}
+
+#cards .card 	{
+	height: 45vh;
+}
+
+#selected .gafaria 	{
+	height: 90vh;
+}
+}
+
+
+/*-- Medium devices (tablets, 768px and up) --*/
+
+@media (min-width: 766px) {
+
+#main img 	{
+	display: inline-block;
+}
+
+#main h1	{
+	font-size: 2.25rem;
+}
+
+#main .display-4	{
+	font-size: 2.25rem;
+}
+
+#main p 	{
+	padding-bottom: 3rem!important; 
+}
+
+
+#main a 	{
+	color: black!important;
+	font-weight: normal;
+	text-decoration: underline;
+	transform: translateY(15%);
+}
+
+.overflow-img	{
+	height: 40vh;
+	width: auto;
+	margin-top: 5rem; 
+	max-width: 55rem;
+}
+
+.bg-mine	{
+	background-color: #f5f5f5!important;
+	padding: 7.5rem 4rem 0rem;
+}
+
+#list	{
+	margin-top: 0rem;
+}
+
+#business .bounce-up 	{
+	margin-top: 3rem;
+}
+
+#cards 	{
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/know_us2_alt.png');
+	background-size: 300%;
+	background-position: 50% -125%;
+	background-repeat: no-repeat;
+	margin-bottom: 10rem;
+}
+
+#selected .gafaria 	{
+	margin-bottom: 5rem;
+	height: 40vh;
+	width: auto;
+}
+}
+
+
+/*-- Fix for phones (phones, 812px and up) --*/
+
+@media (min-width: 812px) {
+
+#main h1 	{
+	font-size: 1.75rem; 
+}
+
+#main .display-4 	{
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+#main img 	{
+	display: none;
+}
+
+.bg-mine	{
+	padding: 3rem 4rem 3rem;
+	margin-bottom: 5rem;
+}
+
+#selected .gafaria 	{
+	height: 110vh;
+}
+}
+
+
+
+/*-- Large devices (desktops, 992px and up) --*/
+
+@media (min-width: 992px) {
+
+#main a 	{
+	display: none;
+}
+
+#hero .row	{
+	overflow: hidden;
+}
+
+.overflow-img	{
+	height: 40vh;
+	width: auto;
+	margin-top: 5rem; 
+	max-width: 55rem;
+}
+
+#business .row	{
+	margin-top: 2rem;
+}
+
+#cards 	{
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/know_us2_alt.png');
+	background-size: 130%;
+	background-position: 50% -200%;
+	background-repeat: no-repeat;
+	margin-bottom: 10rem;
+}
+
+#cards .card 	{
+	height: 13vh;
+}
+
+#selected .gafaria 	{
+	z-index: 1000;
+	filter: grayscale(100%);
+	width: 125%;
+	height: auto;
+}
+}
+
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) {
+
+#top	{
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/tower22.png');
+	background-size: cover;
+	background-position: top;
+	height: 90vh;
+}
+
+#main img 	{
+	display: inline-block;
+}
+
+#main a 	{
+	color: black!important;
+	font-weight: normal;
+	text-decoration: underline;
+	transform: translateY(5%);
+	display: block;
+}
+
+.bg-mine	{
+	background-color: #f5f5f5!important;
+	padding-top: 7.5rem;
+	padding-left: 10rem;
+	padding-bottom: 7.5rem;
+}
+
+#hero 	{
+	padding-top: 2.5rem;
+	padding-bottom: 12.5rem;
+	font-size: .9rem;
+}
+
+
+#hero .row	{
+	overflow: visible;
+}
+
+#hero .container	{
+	height: 80vh;
+}
+
+.overflow-img	{
+	height: 77.5vh;
+	max-width: 55rem;
+}
+
+#business 	{
+	padding: 5rem 25rem 10rem;
+	font-size: .9rem;
+}
+
+#business img 	{
+	display: block;
+}
+
+#business .row	{
+	height: inherit;
+}
+
+#list	{
+	transform: none;
+}
+
+.subject	{
+	margin-top: 0;
+}
+
+#cards 	{
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/images/know_us2_alt.png');
+	background-size: cover;
+	background-position: 50% 230%;
+	background-repeat: no-repeat;
+}
+
+#cards .row	{
+	width: 75rem;
+}
+
+#cards .card 	{
+	height: auto;
+}
+
+#selected 	{
+	padding: 10rem;
+}
+
+#footer 	{
+	padding: 5rem 20rem 1rem;
+}
+
+#footer h6 	{
+	display: block;
+}
+
+#footer .small 	{
+	font-size: .8rem;
+}
+}
+
+
+/*-- Fix for large tab screens --*/
+
+@media (min-width: 1366px) {
+
+#main a 	{
+	color: black!important;
+	font-weight: normal;
+	text-decoration: underline;
+	transform: translateY(31.5%);
+	display: block;
+}
+
+@media (min-width: 1367px) {
+
+#main a 	{
+	color: black!important;
+	font-weight: normal;
+	text-decoration: underline;
+	transform: translateY(0%);
+	display: block;
 }

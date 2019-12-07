@@ -12,8 +12,8 @@ body	{
 
 #top	{
 	background-color: black!important;
-	background-size: 35%;
-	background-position: 90% 50%;
+	background-size: 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
 }
@@ -74,7 +74,8 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
-	margin-right: 5rem;
+	margin-left: 4rem;
+	margin-bottom: 1.5rem;
 }
 
 .btn 	{
@@ -85,110 +86,110 @@ body	{
 
 #katampe1	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/o-apartments.jpg');
-	background-size: 100%;
-	background-position: center;
+	background-size: 110%;
+	background-position: 300% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #katampe2	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/g-garden.jpg');
-	background-size: 100%;
-	background-position: center;
+	background-size: 110%;
+	background-position: 200% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #asokoro2	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/wuse22.jpg');
 	background-size: 110%;
-	background-position: bottom;
+	background-position: 175% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
-	-webkit-animation: zoomin 60s 5;
+	width: 65rem;
+	-webkit-animation: zoomout 60s 5;
 	filter: grayscale(100%);
 }
 
 #asokoro1	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/wuse3.jpg');
-	background-size: 100%;
-	background-position: center;
+	background-size: 110%;
+	background-position: 110% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #durumi1	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.png');
-	background-size: 120%;
-	background-position: 60% 0%;
+	background-size: 163%;
+	background-position: 85% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #durumi2	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/durumi-home.jpg');
-	background-size: 100%;
-	background-position: bottom;
+	background-size: 110%;
+	background-position: 150% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
-}
-
-#other1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro1.png');
-	background-size: 122%;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 105vh;
-	width: 120rem;
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #other2	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.png');
 	background-size: 110%;
-	background-position: center;
+	background-position: 75% 45%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
-	-webkit-animation: zoomin 60s 5;
+	width: 65rem;
+	-webkit-animation: zoomout 60s 5;
+}
+
+#other1	{
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.png');
+	background-size: 120%;
+	background-position: 30% 50%;
+	background-repeat: no-repeat;
+	height: 105vh;
+	width: 65rem;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #wuse1	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/nordic.jpg');
-	background-size: 100%;
-	background-position: 65% 90%;
+	background-size: 120%;
+	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 #wuse2	{
 	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/veranda.jpg');
-	background-size: 100%;
-	background-position: center;
+	background-size: 120%;
+	background-position: 140% 50%;
 	background-repeat: no-repeat;
 	height: 105vh;
-	width: 120rem;
+	width: 65rem;
 	filter: grayscale(100%);
-	-webkit-animation: zoomin 60s 5;
+	-webkit-animation: zoomout 60s 5;
 }
 
 
@@ -198,6 +199,15 @@ body	{
 	}
 	100%	{
 		-webkit-transform: scale(2);
+	}
+}
+
+@-webkit-keyframes zoomout	{
+	0% 		{
+		-webkit-transform: scale(1.5);
+	}
+	100%	{
+		-webkit-transform: scale(.5);
 	}
 }
 
@@ -215,19 +225,467 @@ body	{
 
 .bg-black	{
 	background-color: black;
-	height: 100vh;
+	height: 120vh;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
 	color: white;
 }
 
-.col-4	{
+#collapse a 	{
+	color: white!important;
+	font-size: 1.25rem;
+	text-decoration: underline;
+}
+
+#collapse h1 	{
+	font-size: 2rem;
+	padding-right: 0rem!important;
+}
+
+#collapse .lead 	{
+	font-size: .975rem;
+	margin-bottom: 0rem;
+}
+
+#collapse .card 	{
+	padding-top: 0;
+}
+
+#main 	{
+	height: 75%!important;
+}
+
+#main .container-fluid	{
+	height: 75%;
+}
+
+/*-- Media Queries --*/
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+
+@media (min-width: 380px) {
+
+#collapse .lead 	{
+	font-size: 1.25rem;
+	margin-bottom: 0rem;
+}
+
+#collapse .card 	{
+	padding-top: 0;
+}
+}
+
+
+/*-- Horizontal device screens (landscape phones, 560px and up) --*/
+
+@media (min-width: 560px) {
+
+#main 	{
+	height: 100%!important;
+}
+
+#main .container-fluid	{
+	height: 120%;
+}
+
+.carousel-caption	{
+	padding-right: 10rem;
+}
+
+
+#collapse .lead 	{
+	font-size: .85rem;
+	margin-bottom: 0rem;
+}
+
+#collapse h3 	{
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+
+#collapse h1 	{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	padding-right: 0rem!important;
+}
+
+#collapse .card 	{
+	padding-top: 0;
+}
+
+#collapse .col-7, .col-5	{
+	margin-bottom: .2rem;
+}
+}
+
+
+/*-- Medium horizontal devices (660px and up) --*/
+
+@media (min-width: 660px) {
+
+#main 	{
+	height: 100%!important;
+}
+
+#main .container-fluid	{
+	height: 110%;
+}
+
+#collapse .lead 	{
+	font-size: .85rem;
+	margin-bottom: 0rem;
+}
+
+.carousel-caption	{
+	padding-right: 10rem;
+}
+
+#collapse .col-7, .col-5	{
+	margin-bottom: .4rem;
+}
+}
+
+
+/*-- Fix for phones (phones, 720px and up) --*/
+
+@media (min-width: 720px) {
+
+#collapse .lead 	{
+	font-size: 1.1rem;
+	margin-bottom: 0rem;
+}
+}
+
+
+/*-- Medium devices (tablets, 750px and up) --*/
+
+@media (min-width: 750px) {
+
+#katampe1	{
+	background-size: 120%;
+	background-position: 175% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s;
+}
+
+#katampe2	{
+	background-size: 110%;
+	background-position: 200% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#asokoro2	{
+	background-size: 120%;
+	background-position: 200% 50%;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+	filter: grayscale(100%);
+}
+
+#asokoro1	{
+	background-size: 110%;
+	background-position: 200% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#durumi1	{
+	background-size: 175%;
+	background-position: 75s% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#durumi2	{
+	background-size: 110%;
+	background-position: 250% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#other2	{
+	background-size: 120%;
+	background-position: 100% 50%;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+}
+
+#other1	{
+	background-size: 120%;
+	background-position: 50% 50%;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+}
+
+#wuse1	{
+	background-size: 115%;
+	background-position: 150% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#wuse2	{
+	background-size: 110%;
+	background-position: 275% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#main .container-fluid	{
+	height: 100%;
+}
+
+.carousel-caption	{
+	padding-right: 0rem;
+	padding-bottom: 3rem;
+}
+}
+
+
+/*-- Large devices (desktops, 992px and up) --*/
+
+@media (min-width: 992px) {
+
+#collapse h1 	{
+	margin-bottom: 0rem;
+}
+
+.col-xl-5	{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 3rem;
+}
+
+#katampe1	{
+	background-size: 130%;
+	background-position: 115% 50%;
+}
+
+#katampe2	{
+	background-size: 130%;
+	background-position: 150% 50%;
+}
+
+#asokoro2	{
+	background-size: 130%;
+	background-position: 150% 50%;
+}
+
+#asokoro1	{
+	background-size: 130%;
+	background-position: 100% 50%;
+}
+
+#durumi1	{
+	background-size: 250%;
+	background-position: 65% 50%;
+}
+
+#durumi2	{
+	background-size: 130%;
+	background-position: 150% 50%;
+}
+
+#other2	{
+	background-size: 130%;
+	background-position: 75% 50%;
+}
+
+#other1	{
+	background-size: 155%;
+	background-position: 50% 50%;
+}
+
+#wuse1	{
+	background-size: 155%;
+	background-position: 50% 50%;
+}
+
+#wuse2	{
+	background-size: 130%;
+	background-position: 100% 50%;
+}
+
+#collapse h1 	{
+	font-weight: normal;
+	font-size: 5rem;
+	padding-right: 2rem!important;
+	margin-bottom: 2rem;
+}
+
+#collapse .lead 	{
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+	line-height: 1.75rem;
+}
+
+#collapse .card 	{
+	padding-top: 1rem;
+}
+
+#collapse .col-7, .col-5	{
+	margin-bottom: 1rem;
+}
+
+#collapse h3 	{
+	font-size: 2rem;
+	padding: 1rem 0rem 1rem;
+}
+
+#collapse .display-4 	{
+	font-size: 3rem;
+	padding-bottom: 1rem;
+}
+}
+
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) {
+
+.carousel-caption	{
+	padding-right: 5rem;
+	padding-bottom: 0rem;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+#katampe1	{
+	background-size: 100%;
+	background-position: center;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#katampe2	{
+	background-size: 100%;
+	background-position: center;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#asokoro2	{
+	background-size: 110%;
+	background-position: bottom;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#asokoro1	{
+	background-size: 100%;
+	background-position: center;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#durumi1	{
+	background-size: 160%;
+	background-position: 60% 50%;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#durumi2	{
+	background-size: 100%;
+	background-position: bottom;
+	width: 120rem;
+	filter: grayscale(100%);
+	-webkit-animation: zoomin 60s 5;
+}
+
+#other2	{
+	background-size: 122%;
+	background-position: center;
+	width: 120rem;
+}
+
+#other1	{
+	background-size: 115%;
+	background-position: center;
+	width: 120rem;
+	-webkit-animation: zoomin 60s 5;
+}
+
+#wuse1	{
+	background-size: 115%;
+	background-position: 65% 90%;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#wuse2	{
+	background-size: 100%;
+	background-position: center;
+	width: 120rem;
+	filter: grayscale(100%);
+}
+
+#collapse .display-4 	{
+	font-size: 4rem;
+}
+
+.col-xl-5	{
 	border-left: 2px solid white;
 	border-top: none;
 	padding: 2rem 5rem 2rem;
 }
 
-#collapse a 	{
-	color: white!important;
+#main 	{
+	height: 75%!important;
+}
+
+#main .container-fluid	{
+	height: 75%;
+}
+
+#collapse h1 	{
+	font-weight: normal;
+	padding-right: 2rem!important;
+}
+
+#collapse .lead 	{
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	line-height: 1.75rem;
+}
+
+#collapse .card 	{
+	padding-top: 1rem;
+}
+
+#collapse .col-7, .col-5	{
+	margin-bottom: 1rem;
+}
+
+#collapse h3 	{
+	font-size: 1.5rem;
+}
+}
+
+
+/*-- Fix for large tab screens --*/
+
+@media (min-width: 1366px) {
+
+#collapse h1 	{
+	margin-bottom: 5rem!important;
+}
+}
+
+
+@media (min-width: 1367px) {
+
+#collapse h1 	{
+	margin-bottom: 0rem!important;
+}
 }

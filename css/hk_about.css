@@ -9,8 +9,7 @@ body	{
 
 /*-- Top --*/
 #top 	{
-	height: 150vh;
-
+	height: 115vh;
 }
 
 #cont	{
@@ -42,7 +41,7 @@ body	{
 /*-- Main --*/
 
 #main .display-4	{
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	padding-bottom: 1.5rem;
 }
 
@@ -51,7 +50,7 @@ body	{
 }
 
 #main .lead	{
-	font-size: 1rem;
+	font-size: .85rem;
 }
 
 #main img 	{
@@ -70,17 +69,18 @@ body	{
 /*-- Team --*/
 
 #team {
-	padding: 7.5rem 10rem 5rem;
-	margin-top: 5rem;
+	padding: 5rem 1.5rem 2.5rem;
 }
 
 #team .img1 	{
 	background-image: url("https://kaybee19.github.io/hk-website/sup-img/images/hassan.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-position: 90% 20%; 
-	height: 30rem;
+	height: 17.5rem;
+	background-repeat: no-repeat;
 	filter: grayscale(100%);
 	position: relative;
+	margin-bottom: 5rem;
 }
 
 #team .img1:hover 	{
@@ -90,9 +90,11 @@ body	{
 #team .img2 	{
 	background-image: url("https://kaybee19.github.io/hk-website/sup-img/images/osita.jpg");
 	background-size: 100%;
-	height: 30rem;
+	height: 17.5rem;
+	background-repeat: no-repeat;
 	filter: grayscale(100%);
 	position: relative;
+	margin-bottom: 3rem;
 }
 
 #team .img2:hover 	{
@@ -111,14 +113,10 @@ body	{
 	font-size: 1rem;
 }
 
-#team .pding 	{
-	margin-bottom: 5rem;
-}
-
 /*-- Services --*/
 
 #services 	{
-	padding: 7.5rem 5rem 10rem;
+	padding: 5rem 2rem 5rem;
 }
 
 #services .carousel 	{
@@ -136,6 +134,7 @@ body	{
 	padding-top: 0rem;
 	margin-top: 0rem;
 	width: 25rem;
+	visibility: hidden;
 }
 
 #services .display-3 	{
@@ -178,7 +177,7 @@ body	{
 /*-- Footer --*/
 
 #footer 	{
-	padding: 5rem 20rem 1rem;
+	padding: 5rem 2rem 1rem;
 }
 
 .bg-dark	{
@@ -196,4 +195,166 @@ body	{
 
 #footer a 	{
 	color: white!important;
+}
+
+#footer h6 	{
+	display: none;
+}
+
+
+#footer .small 	{
+	font-size: .6rem;
+	line-height: 1rem;
+}
+
+
+
+
+/*-- Media Queries --*/
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+@media (min-width: 380px) {
+
+}
+
+
+/*-- Horizontal device screens (landscape phones, 560px and up) --*/
+
+@media (min-width: 560px) {
+
+#main .display-4	{
+	font-size: 1.5rem;
+	padding-bottom: .5rem;
+}
+
+#main h6	{
+	font-size: 1.25rem;
+}
+
+#main .lead	{
+	font-size: .75rem;
+}
+
+#main img 	{
+	padding: 2rem 0rem 1rem;
+}
+
+#team {
+	padding: 2.5rem 1.5rem 2.5rem;
+	margin: 15rem 0rem 0rem;
+}
+
+#footer 	{
+	padding: 5rem 5rem 1rem;
+}
+}
+
+
+/*-- Medium devices (tablets, 768px and up) --*/
+
+@media (min-width: 766px) {
+
+}
+
+
+/*-- Fix for phones (phones, 812px and up) --*/
+
+@media (min-width: 812px) {
+
+#team {
+	padding: 2.5rem 1.5rem 2.5rem;
+	margin: 20rem 0rem 0rem;
+}
+
+#team .img1, #team .img2 	{
+	height: 22.5rem;
+}
+}
+
+
+/*-- Large devices (desktops, 992px and up) --*/
+
+@media (min-width: 992px) {
+
+#top 	{
+	height: 125vh;
+}
+
+#team {
+	padding: 5rem 10rem 5rem;
+	margin-top: 7.5rem;
+}
+
+#footer 	{
+	padding: 5rem 7.5rem 1rem;
+}
+
+#footer h6 	{
+	display: block;
+}
+
+#footer .small 	{
+	font-size: .8rem;
+}
+
+#services 	{
+	padding: 7.5rem 5rem 10rem;
+}
+
+#team .img1, #team .img2 	{
+	height: 22.5rem;
+}
+
+#team .pding 	{
+	margin-bottom: 5rem;
+}
+
+#services hr 	{
+ visibility: visible;
+}
+}
+
+
+/*-- Extra large devices (large desktops, 1200px and up) --*/
+
+@media (min-width: 1200px) {
+
+#top 	{
+	height: 140vh;
+}
+
+#main .display-4	{
+	font-size: 1.75rem;
+	padding-bottom: 1.5rem;
+}
+
+#main h6	{
+	font-size: 1.25rem;
+	padding-bottom: .25rem;
+}
+
+#main .lead	{
+	font-size: 1rem;
+}
+
+#team .img1, #team .img2 	{
+	height: 30rem;
+}
+
+#footer 	{
+	padding: 5rem 20rem 1rem;
+}
+}
+
+
+/*-- Fix for large tab screens --*/
+
+@media (min-width: 1366px) {
+
+}
+
+
+@media (min-width: 1367px) {
+
 }
