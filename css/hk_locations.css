@@ -44,7 +44,7 @@ body	{
 
 #vertical 	{
 	width: 25rem;
-	position: absolute;
+	position: relative;
 	padding-left: 0rem;
 	margin-left: 0rem;
 	padding-bottom: 12.5rem;
@@ -227,6 +227,7 @@ body	{
 .bg-black	{
 	background-color: black;
 	height: 100vh;
+	padding: 0rem 1rem 0rem;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
@@ -250,7 +251,7 @@ body	{
 }
 
 #collapse h6, #collapse p 	{
-	font-size: .75rem;
+	font-size: .7rem;
 }
 
 #collapse h6	{
@@ -338,15 +339,16 @@ body	{
 
 #main .container-fluid	{
 	height: 120%;
+	margin-top: 0rem;
 }
 
 .carousel-caption	{
 	padding-right: 10rem;
+	margin-left: 15rem;
 }
 
-
 #collapse .lead 	{
-	font-size: .85rem;
+	font-size: .75rem;
 	margin-bottom: 0rem;
 }
 
@@ -361,6 +363,10 @@ body	{
 	padding-right: 0rem!important;
 }
 
+#collapse h6, #collapse p 	{
+	line-height: 1.25rem;
+}
+
 #collapse .card 	{
 	padding-top: 0;
 }
@@ -368,12 +374,16 @@ body	{
 #collapse .col-7, .col-5	{
 	margin-bottom: .2rem;
 }
+
+#vertical 	{
+	padding-bottom: 5rem;
+}
 }
 
 
 /*-- Medium horizontal devices (660px and up) --*/
 
-@media (min-width: 660px) {
+@media (min-width: 640px) {
 
 #main 	{
 	height: 100%!important;
@@ -381,6 +391,7 @@ body	{
 
 #main .container-fluid	{
 	height: 110%;
+	margin-top: 3rem;
 }
 
 #collapse .lead 	{
@@ -389,7 +400,7 @@ body	{
 }
 
 .carousel-caption	{
-	padding-right: 10rem;
+	margin-left: 5rem;
 }
 
 #collapse .col-7, .col-5	{
