@@ -75,7 +75,8 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
-	margin-bottom: -1.5rem;
+	margin-bottom: 0rem;
+	margin-left: -1rem;
 }
 
 .btn 	{
@@ -244,8 +245,16 @@ body	{
 }
 
 #collapse .lead 	{
-	font-size: .8rem;
+	font-size: .6rem;
 	margin-bottom: 0rem;
+}
+
+#collapse h6, #collapse p 	{
+	font-size: .75rem;
+}
+
+#collapse h3 	{
+	font-size: 1.25rem;
 }
 
 #collapse .card 	{
@@ -257,8 +266,9 @@ body	{
 }
 
 #main .container-fluid	{
-	height: 75%;
+	height: 50%;
 	padding: 0;
+	margin-top: 3rem;
 }
 
 /*-- Media Queries --*/
@@ -282,7 +292,6 @@ body	{
 }
 
 .carousel-caption	{
-	margin-bottom: 0rem;
 	margin-left: 4rem;
 }
 
