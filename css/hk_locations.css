@@ -16,7 +16,7 @@ body	{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	position: fixed;
 }
 
 #text	{
@@ -75,6 +75,7 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
+	margin-bottom: -1.5rem;
 }
 
 .btn 	{
@@ -89,7 +90,7 @@ body	{
 	background-position: 300% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -100,7 +101,7 @@ body	{
 	background-position: 200% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -111,7 +112,7 @@ body	{
 	background-position: 175% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 	filter: grayscale(100%);
 }
@@ -122,7 +123,7 @@ body	{
 	background-position: 110% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -133,7 +134,7 @@ body	{
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -144,7 +145,7 @@ body	{
 	background-position: 150% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -155,7 +156,7 @@ body	{
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 }
 
@@ -165,7 +166,7 @@ body	{
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	-webkit-animation: zoomout 60s 5;
 }
 
@@ -175,7 +176,7 @@ body	{
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -186,7 +187,7 @@ body	{
 	background-position: 140% 50%;
 	background-repeat: no-repeat;
 	height: 100vh;
-	width: 100vw;
+	width: 65rem;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -224,7 +225,7 @@ body	{
 
 .bg-black	{
 	background-color: black;
-	height: 120vh;
+	height: 100vh;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
@@ -242,12 +243,8 @@ body	{
 	padding-right: 0rem!important;
 }
 
-#collapse h3, #collapse p, #collapse h6 	{
-	font-size: .75rem;
-}
-
 #collapse .lead 	{
-	font-size: .5rem;
+	font-size: .8rem;
 	margin-bottom: 0rem;
 }
 
@@ -264,8 +261,6 @@ body	{
 	padding: 0;
 }
 
-
-
 /*-- Media Queries --*/
 
 
@@ -274,7 +269,7 @@ body	{
 @media (min-width: 340px) {
 
 #top	{
-	height: 100vh;
+	width: 100%;
 }
 
 #collapse .lead 	{
@@ -286,12 +281,8 @@ body	{
 	padding-top: 0;
 }
 
-#katampe1, #katampe2, #asokoro2, #asokoro1, #durumi1, #durumi2, #other2, #other1, #wuse1, #wuse2{
-	height: 105vh;
-}
-
 .carousel-caption	{
-	margin-bottom: 1.5rem;
+	margin-bottom: 0rem;
 	margin-left: 4rem;
 }
 
