@@ -235,7 +235,7 @@ body	{
 
 #collapse a 	{
 	color: white!important;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	text-decoration: underline;
 }
 
@@ -245,7 +245,7 @@ body	{
 }
 
 #collapse .lead 	{
-	font-size: .4rem;
+	font-size: .75rem;
 }
 
 #collapse h6, #collapse p 	{
@@ -281,18 +281,40 @@ body	{
 	width: 100%;
 }
 
-#collapse .lead 	{
-	font-size: 1.25rem;
-	margin-bottom: 0rem;
-}
-
 #collapse .card 	{
 	padding-top: 0;
 }
 
 .carousel-caption	{
-	margin-left: 4rem;
+	margin-left: 2rem;
 	margin-bottom: 0rem;
+}
+
+
+/*-- Old devices (landscape phones, 380px and up) --*/
+
+@media (min-width: 400px) {
+
+#collapse a 	{
+	font-size: 1.25rem;
+}
+
+#collapse h1 	{
+	font-size: 2rem;
+	padding-right: 0rem!important;
+}
+
+#collapse .lead 	{
+	font-size: initial;
+}
+
+#collapse h6, #collapse p 	{
+	font-size: initial;
+}
+
+#collapse h3 	{
+	font-size: initial;
+}
 }
 
 
