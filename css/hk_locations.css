@@ -15,7 +15,8 @@ body	{
 	background-size: 50%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
+	height: 100vh;
+	width: 100vw;
 }
 
 #text	{
@@ -74,7 +75,6 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
-	margin-bottom: 5rem;
 }
 
 .btn 	{
@@ -88,8 +88,8 @@ body	{
 	background-size: 110%;
 	background-position: 300% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -99,8 +99,8 @@ body	{
 	background-size: 110%;
 	background-position: 200% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -110,8 +110,8 @@ body	{
 	background-size: 110%;
 	background-position: 175% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	-webkit-animation: zoomout 60s 5;
 	filter: grayscale(100%);
 }
@@ -121,8 +121,8 @@ body	{
 	background-size: 110%;
 	background-position: 110% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -132,8 +132,8 @@ body	{
 	background-size: 163%;
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -143,8 +143,8 @@ body	{
 	background-size: 110%;
 	background-position: 150% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -154,8 +154,8 @@ body	{
 	background-size: 110%;
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	-webkit-animation: zoomout 60s 5;
 }
 
@@ -164,8 +164,8 @@ body	{
 	background-size: 120%;
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	-webkit-animation: zoomout 60s 5;
 }
 
@@ -174,8 +174,8 @@ body	{
 	background-size: 120%;
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -185,8 +185,8 @@ body	{
 	background-size: 120%;
 	background-position: 140% 50%;
 	background-repeat: no-repeat;
-	height: 120vh;
-	width: 65rem;
+	height: 100vh;
+	width: 100vw;
 	filter: grayscale(100%);
 	-webkit-animation: zoomout 60s 5;
 }
@@ -227,10 +227,6 @@ body	{
 	height: 120vh;
 }
 
-#collapse 	{
-	width: auto;
-}
-
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
 	color: white;
 }
@@ -246,8 +242,12 @@ body	{
 	padding-right: 0rem!important;
 }
 
+#collapse h3, #collapse p, #collapse h6 	{
+	font-size: .75rem;
+}
+
 #collapse .lead 	{
-	font-size: .8rem;
+	font-size: .5rem;
 	margin-bottom: 0rem;
 }
 
