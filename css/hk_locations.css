@@ -16,7 +16,6 @@ body	{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	height: 120vh;
-	width: 27.5rem;
 }
 
 #text	{
@@ -75,8 +74,7 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
-	margin-left: 4rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 5rem;
 }
 
 .btn 	{
@@ -130,7 +128,7 @@ body	{
 }
 
 #durumi1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.jpg');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.png');
 	background-size: 163%;
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
@@ -152,7 +150,7 @@ body	{
 }
 
 #other2	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.jpg');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.png');
 	background-size: 110%;
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
@@ -162,7 +160,7 @@ body	{
 }
 
 #other1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.jpg');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.png');
 	background-size: 120%;
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
@@ -227,15 +225,14 @@ body	{
 .bg-black	{
 	background-color: black;
 	height: 120vh;
-	width: 27.5rem;
+}
+
+#collapse 	{
+	width: auto;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
 	color: white;
-}
-
-#collapse 	{
-	width: 27.5rem;
 }
 
 #collapse a 	{
@@ -267,6 +264,8 @@ body	{
 	padding: 0;
 }
 
+
+
 /*-- Media Queries --*/
 
 
@@ -275,12 +274,7 @@ body	{
 @media (min-width: 340px) {
 
 #top	{
-	width: 100%;
 	height: 100vh;
-}
-
-#collapse 	{
-	width: auto;
 }
 
 #collapse .lead 	{
@@ -288,13 +282,19 @@ body	{
 	margin-bottom: 0rem;
 }
 
-.bg-black	{
-	width: auto;
+#collapse .card 	{
+	padding-top: 0;
 }
 
 #katampe1, #katampe2, #asokoro2, #asokoro1, #durumi1, #durumi2, #other2, #other1, #wuse1, #wuse2{
 	height: 105vh;
 }
+
+.carousel-caption	{
+	margin-bottom: 1.5rem;
+	margin-left: 4rem;
+}
+
 
 /*-- Horizontal device screens (landscape phones, 560px and up) --*/
 
@@ -327,6 +327,10 @@ body	{
 	font-size: 1.5rem;
 	font-weight: bolder;
 	padding-right: 0rem!important;
+}
+
+#collapse .card 	{
+	padding-top: 0;
 }
 
 #collapse .col-7, .col-5	{
@@ -671,6 +675,10 @@ body	{
 	font-size: 1.25rem;
 	margin-bottom: 1rem;
 	line-height: 1.75rem;
+}
+
+#collapse .card 	{
+	padding-top: 1rem;
 }
 
 #collapse .col-7, .col-5	{
