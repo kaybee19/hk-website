@@ -338,12 +338,13 @@ body	{
 
 #main .container-fluid	{
 	height: 120%;
-	margin-top: 0rem;
+	margin-top: 1rem;
 }
 
 .carousel-caption	{
 	padding-right: 10rem;
 	margin-left: 15rem;
+	margin-bottom: 2rem;
 }
 
 #collapse .display-4, #collapse .display-1 	{
@@ -384,6 +385,10 @@ body	{
 #vertical 	{
 	padding-bottom: 5rem;
 }
+
+#vertical a 	{
+	padding-bottom: 0rem;
+}
 }
 
 
@@ -393,7 +398,11 @@ body	{
 
 #main .container-fluid	{
 	height: 110%;
-	margin-top: 1rem;
+	margin-top: -1rem;
+}
+
+#vertical a 	{
+	padding-bottom: .5rem;
 }
 
 .carousel-caption	{
