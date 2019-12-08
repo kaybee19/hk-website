@@ -227,7 +227,6 @@ body	{
 .bg-black	{
 	background-color: black;
 	height: 100vh;
-	padding: 0rem 1rem 0rem;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
@@ -347,6 +346,10 @@ body	{
 	margin-left: 15rem;
 }
 
+#collapse .display-4, #collapse .display-1 	{
+	margin-bottom: 0rem;
+}
+
 #collapse .lead 	{
 	font-size: .75rem;
 	margin-bottom: 0rem;
@@ -365,14 +368,17 @@ body	{
 
 #collapse h6, #collapse p 	{
 	line-height: 1.25rem;
+	font-size: .75rem;
+	padding-bottom: 0rem;
+	margin-bottom: 0rem!important;
 }
 
 #collapse .card 	{
 	padding-top: 0;
 }
 
-#collapse .col-7, .col-5	{
-	margin-bottom: .2rem;
+#collapse .col-7, #collapse .col-5	{
+	margin-bottom: 0rem;
 }
 
 #vertical 	{
@@ -385,18 +391,9 @@ body	{
 
 @media (min-width: 640px) {
 
-#main 	{
-	height: 100%!important;
-}
-
 #main .container-fluid	{
 	height: 110%;
-	margin-top: 3rem;
-}
-
-#collapse .lead 	{
-	font-size: .85rem;
-	margin-bottom: 0rem;
+	margin-top: 1rem;
 }
 
 .carousel-caption	{
@@ -413,9 +410,22 @@ body	{
 
 @media (min-width: 720px) {
 
+#main .container-fluid	{
+	margin-top: 3rem;
+}
+
+#collapse .display-4	{
+	padding-bottom: 1rem;
+}
+
 #collapse .lead 	{
 	font-size: 1.1rem;
 	margin-bottom: 0rem;
+}
+
+#collapse h6, #collapse p 	{
+	font-size: initial;
+	margin-bottom: initial!important;
 }
 }
 
@@ -605,6 +615,10 @@ body	{
 #collapse h3 	{
 	font-size: 2rem;
 	padding: 1rem 0rem 1rem;
+}
+
+#collapse h6, #collapse p 	{
+	padding-bottom: 1rem;
 }
 
 #collapse .display-4 	{
