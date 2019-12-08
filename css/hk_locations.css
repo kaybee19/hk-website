@@ -15,8 +15,8 @@ body	{
 	background-size: 50%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	width: 115%;
 	height: 120vh;
+	width: 27.5rem;
 }
 
 #text	{
@@ -130,7 +130,7 @@ body	{
 }
 
 #durumi1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.jpg');
 	background-size: 163%;
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body	{
 }
 
 #other2	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.jpg');
 	background-size: 110%;
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body	{
 }
 
 #other1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.jpg');
 	background-size: 120%;
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
@@ -227,16 +227,20 @@ body	{
 .bg-black	{
 	background-color: black;
 	height: 120vh;
-	width: 115%;
+	width: 27.5rem;
 }
 
 #wuse-collapse, #katampe-collapse, #durumi-collapse, #asokoro-collapse, #others-collapse	{
 	color: white;
 }
 
+#collapse 	{
+	width: 27.5rem;
+}
+
 #collapse a 	{
 	color: white!important;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	text-decoration: underline;
 }
 
@@ -246,7 +250,7 @@ body	{
 }
 
 #collapse .lead 	{
-	font-size: .975rem;
+	font-size: .8rem;
 	margin-bottom: 0rem;
 }
 
@@ -275,19 +279,22 @@ body	{
 	height: 100vh;
 }
 
+#collapse 	{
+	width: auto;
+}
+
 #collapse .lead 	{
 	font-size: 1.25rem;
 	margin-bottom: 0rem;
 }
 
-#collapse .card 	{
-	padding-top: 0;
+.bg-black	{
+	width: auto;
 }
 
-#katampe1, #katampe2 #asokoro2, #asokoro1, #durumi1, #durumi2, #other2, #other1, #wuse1, #wuse2{
+#katampe1, #katampe2, #asokoro2, #asokoro1, #durumi1, #durumi2, #other2, #other1, #wuse1, #wuse2{
 	height: 105vh;
 }
-
 
 /*-- Horizontal device screens (landscape phones, 560px and up) --*/
 
@@ -320,10 +327,6 @@ body	{
 	font-size: 1.5rem;
 	font-weight: bolder;
 	padding-right: 0rem!important;
-}
-
-#collapse .card 	{
-	padding-top: 0;
 }
 
 #collapse .col-7, .col-5	{
@@ -668,10 +671,6 @@ body	{
 	font-size: 1.25rem;
 	margin-bottom: 1rem;
 	line-height: 1.75rem;
-}
-
-#collapse .card 	{
-	padding-top: 1rem;
 }
 
 #collapse .col-7, .col-5	{
