@@ -130,7 +130,7 @@ body	{
 }
 
 #durumi1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/protea1.jpg');
 	background-size: 163%;
 	background-position: 85% 50%;
 	background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body	{
 }
 
 #other2	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro.jpg');
 	background-size: 110%;
 	background-position: 75% 45%;
 	background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body	{
 }
 
 #other1	{
-	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.png');
+	background-image: url('https://kaybee19.github.io/hk-website/sup-img/locations/asokoro2.jpg');
 	background-size: 120%;
 	background-position: 30% 50%;
 	background-repeat: no-repeat;
@@ -246,14 +246,20 @@ body	{
 
 #collapse .lead 	{
 	font-size: .75rem;
+	margin-bottom: 0rem;
 }
 
 #collapse h6, #collapse p 	{
 	font-size: .75rem;
 }
 
+#collapse h6	{
+	padding-top: .25rem;
+}
+
 #collapse h3 	{
 	font-size: 1.25rem;
+	margin-bottom: 0rem;
 }
 
 #collapse .card 	{
@@ -286,14 +292,18 @@ body	{
 }
 
 .carousel-caption	{
-	margin-left: 2rem;
-	margin-bottom: 0rem;
+	margin-bottom: 4rem;
 }
 
 
 /*-- Old devices (landscape phones, 380px and up) --*/
 
 @media (min-width: 400px) {
+
+.carousel-caption	{
+	margin-left: 2rem;
+	margin-bottom: 0rem;
+}
 
 #collapse a 	{
 	font-size: 1.25rem;
@@ -498,6 +508,10 @@ body	{
 
 #collapse h1 	{
 	margin-bottom: 0rem;
+}
+
+#collapse h6	{
+	padding-top: 0rem;
 }
 
 .col-xl-5	{
