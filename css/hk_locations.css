@@ -75,8 +75,8 @@ body	{
 /*-- BG Images--*/
 
 .carousel-caption	{
-	margin-bottom: 0rem;
-	margin-left: -1rem;
+	margin-bottom: 2rem;
+	margin-left: -3rem;
 }
 
 .btn 	{
@@ -245,8 +245,7 @@ body	{
 }
 
 #collapse .lead 	{
-	font-size: .6rem;
-	margin-bottom: 0rem;
+	font-size: .4rem;
 }
 
 #collapse h6, #collapse p 	{
@@ -293,6 +292,7 @@ body	{
 
 .carousel-caption	{
 	margin-left: 4rem;
+	margin-bottom: 0rem;
 }
 
 
